@@ -178,7 +178,7 @@ function setupWorkspaceUI() {
     const isEncrypt = currentMode === 'encrypt';
     
     DOM.fileInput.multiple = isMerge;
-    DOM.uploadTitle.innerText = isMerge ? 'KÉO THẢ NHIỀU FILE PDF VÀO ĐÂY' : 'KÉO THẢ FILE PDF VÀO ĐÂY';
+    DOM.uploadTitle.innerText = isMerge ? 'Chọn các file PDF ' : 'Chọn file PDF';
 
     const isSelectionMode = ['extract', 'delete', 'rotate'].includes(currentMode);
     DOM.btnSelectAll.style.display = isSelectionMode ? 'flex' : 'none';
